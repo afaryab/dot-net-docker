@@ -104,5 +104,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/host-swarm:${{ env.VERSION_NO_V }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/host-swarm:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/dot-net-8:${{ env.VERSION_NO_V }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/dot-net-8:latest
